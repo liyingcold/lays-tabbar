@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#tab-bar{
+    display: flex;
+    background-color: rgb(203, 205, 206);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    box-shadow: 0px -1px 1px rgb(189, 189, 188,.1);
+}
+.tab-bar-item{
+    flex: 1;
+    text-align: center;
+    height: 49px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color:transparent;
+}
+
