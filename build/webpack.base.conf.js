@@ -23,10 +23,14 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
+    // 解决路径相关的问题，起别名
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'assets': resolve('src/assets'),
+      'components': resolve('src/components'),
+      'views': resolve('src/views'),
     }
   },
   module: {
